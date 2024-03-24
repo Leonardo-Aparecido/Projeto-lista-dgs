@@ -1,0 +1,114 @@
+/*R E S E T*/
+*{
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+    }
+body{
+    background: linear-gradient(68deg, #2F2325 16.6%, #8E5D52 85.6%);
+    font-family: "Open Sans", sans-serif;
+}
+.header{
+    display:flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.header-image{
+    height: 72px;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-menu-item{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+.content{
+    border-top: solid #FFF2E7 0.4px;
+    margin-bottom: 48px;
+}
+.content-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-main-text{
+    display: flex;
+    flex-direction: column;
+    gap:32px
+    
+}
+.content-main-text-title{
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    font-family: "Righteous", sans-serif;
+}
+.content-main-text-subtitle{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+
+}
+.content-main-text-button{
+    background-color:#ECD6C4 ;
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: "Sarala";
+    font-size: 1.2em;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+}
+/* Pseudoclasse para o botão!*/
+.content-main-text-button:hover{
+    background-color: rgba(236,214,196,0.53);
+    cursor: pointer;
+}
+.content-main-image{
+    height: 430px;
+}
+.content-secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffff;
+    gap: 20px;
+    margin-top: 48px;
+
+}
+.content-secondary-title{
+    padding-top: 48px;
+    border-top: 0.4px solid #fff2e7;
+    font-weight: 200;
+    font-size: 1.75em;
+    font-family: "Righteous",sans-serif;
+}
+.content-secondary-paragraph{
+    font-family: "Sarala", sans-serif;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 0.4px solid #fff2e7;
+
+}
+.footer-image{
+    padding: 48px 0px 48px 0px;
+
+}
